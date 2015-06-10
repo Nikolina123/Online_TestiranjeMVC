@@ -1,0 +1,148 @@
+﻿body {
+       
+.collapse navbar-collapse{
+    color:aqua;
+    background-color:aquamarine;
+
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.header{
+    position:fixed;
+    height:auto;
+   background-color:#dbdbdb;
+}
+.btn btn-primary btn-md{
+    position:fixed;
+    right:300px;
+}
+  
+
+.pricing-section-selection-container{
+    height:900px;
+}
+
+.jumbotron {
+  background-size: contain;
+   
+  height:420px;
+  }
+
+    .jumbotron .container {
+    background-image:url("/Scripts/komp.jpg");
+    background-size: cover;
+    height:420px;
+    }
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 38px;  
+  font-family: 'Shift', sans-serif;
+  font-weight:normal;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+.neighborhood-guides p{
+    font-family: font-family: Helvetica, Arial, Sans-serif;
+    font-size: 15px;
+    margin-bottom: 13px;
+    color: #242424;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 25px;
+}
+
+.footer container{
+    background-position-x;
+}
+
+.footer{
+    height:80px;
+    margin-top:10px;
+    background-color:#dbdbdb;
+}
+.container-1{
+    height:400px;
+}
+
+
+.jumbotron {
+  padding: @jumbotron-padding (@jumbotron-padding / 2);
+  margin-bottom: @jumbotron-padding;
+  color: @jumbotron-color;
+  background-color: @jumbotron-bg;
+
+  h1,
+  .h1 {
+    color: @jumbotron-heading-color;
+  }
+
+  p {
+    margin-bottom: (@jumbotron-padding / 2);
+    font-size: @jumbotron-font-size;
+    font-weight: 200;
+  }
+
+  > hr {
+    border-top-color: darken(@jumbotron-bg, 10%);
+  }
+
+  .container &,
+  .container-fluid & {
+    border-radius: @border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: @screen-sm-min) {
+    padding: (@jumbotron-padding * 1.6) 0;
+
+    .container &,
+    .container-fluid & {
+      padding-left:  (@jumbotron-padding * 2);
+      padding-right: (@jumbotron-padding * 2);
+    }
+
+    h1,
+    .h1 {
+      font-size: (@font-size-base * 4.5);
+    }
+  }
+}

@@ -1,0 +1,142 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+/**/
+    
+.collapse navbar-collapse{
+    color:aqua;
+    background-color:aquamarine;
+
+}
+.nav a {
+  //color: #5a5a5a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+#header{
+   background-color:#dbdbdb;
+}
+.btn btn-primary btn-md{
+    position:relative;
+    right:300px;
+}
+  
+
+.pricing-section-selection-container{
+    height:900px;
+}
+
+.jumbotron {
+  background-size: contain;
+   
+  height:420px;
+  }
+
+    .jumbotron .container {
+    background-image:url("/Scripts/komp.jpg");
+    background-size: cover;
+    height:420px;
+    }
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 38px;  
+  font-family: 'Shift', sans-serif;
+  font-weight:normal;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+pre
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    }
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+.neighborhood-guides p{
+    font-family: font-family: Helvetica, Arial, Sans-serif;
+    font-size: 15px;
+    margin-bottom: 13px;
+    color: #242424;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 25px;
+}
+
+.footer container{
+    background-position-x;
+}
+
+.footer{
+    height:50px;
+    margin-top:80px;
+    background-color:#dbdbdb;
+}
+.container-1{
+    height:400px;
+}

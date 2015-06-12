@@ -32,9 +32,9 @@
 </head>
 <body>
     <div class="header">
-    <div class="btn btn-primary btn-md">
-        <h1 style="color:azure"> Online Testiranje - Ava.com</h1>
-    </div>
+        <div class="btn btn-primary btn-md">
+            <h1 style="color:azure"> Online Testiranje - Ava.com</h1>
+        </div>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -45,28 +45,27 @@
                             <li>@Html.ActionLink("Evidencija", "Evidencija", "Evidencija")</li>
                             <li>@Html.ActionLink("Testovi", "Testovi", "Testovi")</li>
                             <li>@Html.ActionLink("Prijava", "Index", "Home")</li>
-                            
-                            <li>@Html.ActionLink("Registracija", "Index", "Registracija")</li>
-                            
-                        </ul>
-      </div>                  
-               
 
-        
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
+                            <li>@Html.ActionLink("Registracija", "Index", "Registracija")</li>
+
+                        </ul>
+                </div>
+
+
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav"></ul>
+                </div>
             </div>
         </div>
-    </div>
-
+    </div> 
     <div class="container body-content">
-        <div class="jumbotron">
+      
         @RenderBody()
         <hr />
         </div>
-     </div>
-  </div>    
+    
+     
         <!-- footer -->
         <footer>
             <hr/>
@@ -74,7 +73,7 @@
             <div class="footer">
                 <div class="container">
                   
-                    <br />
+                    <br/>
                     <p class="pull-right"><a href="poc.html">Povrat na vrh</a></p>
                     <p>&copy; @DateTime.Now.Date Tim-Ava.com &middot; <a href="INFORMACIJE.html">O nama</a></p>
                 </div>

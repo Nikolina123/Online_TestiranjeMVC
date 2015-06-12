@@ -94,6 +94,9 @@
     <Content Include="Content\css\full-slider.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\AVA.png" />
+    <Content Include="Content\img\slike\slika1res.jpg" />
+    <Content Include="Content\img\slike\slika2res.jpg" />
+    <Content Include="Content\img\slike\slika3res.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
